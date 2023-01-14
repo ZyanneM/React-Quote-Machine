@@ -48,7 +48,7 @@
   margin: 0 auto;
   background-color: #df87c4;
   border-radius: 20px;
-  box-shadow: -4px -4px 8px rgba(243, 201, 231, 0.7), 4px 4px 8px #88296b;
+  box-shadow: -4px -4px 8px rgba(247, 173, 226, 0.7), 4px 4px 8px #88296b;
   text-align: center;
   font-family: 'Roboto Slab', serif;
   position: relative;
@@ -77,7 +77,7 @@
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
   background-color: #df87c4;
-  box-shadow: -4px -4px 8px rgba(243, 201, 231, 0.7), 4px 4px 8px #88296b;
+  box-shadow: -4px -4px 8px rgba(247, 173, 226, 0.7), 4px 4px 8px #88296b;
   position: absolute;
   top: 200px;
 }
@@ -89,7 +89,7 @@
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
   background-color: #df87c4;
-  box-shadow: inset -2px -2px 4px hsl(0deg 0% 100% / 70%), inset 2px 2px 4px #88296b;
+  box-shadow: inset -2px -2px 4px rgba(247, 173, 226, 0.7), inset 2px 2px 4px #88296b;
 }
 
 .quote-btn{
