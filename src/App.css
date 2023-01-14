@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,64 @@
     transform: rotate(360deg);
   }
 }
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 40vh;
+  margin: 0 auto;
+  background-color: #df87c4;
+  border-radius: 20px;
+  box-shadow: -4px -4px 8px rgba(243, 201, 231, 0.7), 4px 4px 8px #88296b;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  position: relative;
+  top: -40px;
+}
+
+.quote p:nth-child(2){
+  margin: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  color: #ffffff;
+  background-color: #df87c4;
+  box-shadow: -4px -4px 8px rgba(243, 201, 231, 0.7), 4px 4px 8px #88296b;
+  position: absolute;
+  top: 200px;
+}
+
+.button:hover {
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  color: #ffffff;
+  background-color: #df87c4;
+  box-shadow: inset -2px -2px 4px hsl(0deg 0% 100% / 70%), inset 2px 2px 4px #88296b;
+}
+
+.quote-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 12px;
+}
+
